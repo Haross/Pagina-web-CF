@@ -1,0 +1,178 @@
+html,body{
+	height: 100%;
+	font-family: "Raleway", sans-serif;
+
+}
+
+#Portada{
+	padding-top:150px;
+	background:url(imgs/ingredientes.jpg)  no-repeat fixed center;
+	height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#Menu{
+	background: rgba(0,0,0,0.9);
+ 	width: 100%;
+  	position: fixed;
+  	z-index: 100;
+}
+#Productos{
+	background:url(imgs/ingredientes1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+li:hover {
+  background: #3ead47;
+}
+
+.font-Merriweather{
+   font-family: "Merriweather", serif;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-justify{
+	text-align: justify;
+}
+.no-text-decoration{
+	text-decoration: none;
+}
+.wrapper {
+  margin: auto;
+}
+
+.no-desplazamiento{
+	overflow: hidden;
+}
+.medium-border-top{
+	padding-top: 65px;
+}
+.small-border-top{
+	padding-top: 20px;
+}
+.small-border{
+	padding: 7px;
+}
+.medium-border{
+	padding: 14px;
+}
+.small-border-radius{
+	border-radius: 3px;
+}
+.small-border-right{
+	padding-right: 4px;
+}
+.small-border-left{
+	padding-left: 4px;
+}
+.medium-border-left{
+	padding-left: 10px;
+}
+.big-top-space{
+	margin-top: 150px;
+}
+.big-bottom-space{
+	margin-bottom: 300px;
+}
+.medium-bottom-space{
+	margin-bottom: 50px;
+}
+.small-bottom-space{
+	margin-bottom: 25px;
+}
+.small-left-space{
+	margin-left: 50px;
+}
+.small-top-space{
+	margin-top: 10px;
+}
+.circle{
+	border-radius: 50%;
+}
+.be-small{
+	font-size: 1.2em;
+}
+.be-medium{
+	font-size: 2em;
+}
+.be-big{
+	font-size: 3em;
+}
+
+.almostbig-width{
+	width:80%;
+}
+.medium-width{
+	width: 150px;
+}
+.small-heigth-pic{
+	height: 20%;
+}
+.small-width-pic{
+	width: 20%;
+}
+
+.float-left{
+	float:left;
+}
+.float-right{
+	float:right;
+}
+.ocupa-mitad-w{
+	width: 50%;
+}
+.ocupa-mitad-h{
+	height: 50%;
+}
+
+.block{
+	display:block;
+}
+.inline-block{
+	display: inline-block;
+	margin-right: -4px;
+}
+.inline{
+	display: inline;
+}
+.green-text{
+	color: #009688;
+}
+.white-text{
+	color: white;
+}
+.red-text{
+	color: #b71c1c;
+}
+.orange-text{
+	color: orange;
+}
+.fondo-fijo{
+	background-attachment: fixed;	
+}
+
+.blue{
+	background-color: rgb(50,50,200);
+}
+.background-green{
+	background-color: #1DE9B6;
+}
+.background-gray{
+	background-color: gray;
+}
+
+
+
